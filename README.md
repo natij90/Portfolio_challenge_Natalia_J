@@ -29,3 +29,13 @@ Cześć! Mam na imię Natalia i jestem na etapie przebranżowienia. Aktualnie je
   - W formularzu edycji meczu możliwe jest podanie minusowej wartości w polu "Numer".
   ![image](https://user-images.githubusercontent.com/121819761/212567557-a75e4eb7-d2b7-4a0a-a336-130fb77e8113.png)
 
+## Task 2
+### Subtask 1
+### Pisanie przypadków testowych na podstawie User Story.
+https://docs.google.com/spreadsheets/d/1syqu9mJb71_WnkooivLK1zLWJ-v2yaMQrSzOwwVtOYU/edit?usp=sharing
+### Subtask 2
+### Pisanie przypadków testowych na podstawie “własnych doświadczeń".
+https://docs.google.com/spreadsheets/d/1bkr1_z5aCD0tA7HTI9IfEyB1jdgK-0rv5SbLUGD6NGw/edit?usp=sharing
+### Subtask 3
+### Po co piszemy test case’y?
+Przypadki testowe piszemy, aby zaplanować co chcemy przetestować w danej aplikacji. Pisanie przypadków testowych pozwala nam na lepsze zaplanowanie naszej pracy, a także ułatwia nam sprawdzanie czy na pewno przetestowaliśmy wszystko, co chcieliśmy. Na podstawie przypadków testowych możemy budować raporty z przeprowadzonych testów. Są one także źródłem wiedzy dla nowych osób, które dołączają do zespołu.
