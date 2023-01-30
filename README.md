@@ -31,11 +31,19 @@ Cześć! Mam na imię Natalia i jestem na etapie przebranżowienia. Aktualnie je
 
 ## Task 2
 ### Subtask 1
-### Pisanie przypadków testowych na podstawie User Story.
+### Pisanie przypadków testowych na podstawie User Story
 https://docs.google.com/spreadsheets/d/1syqu9mJb71_WnkooivLK1zLWJ-v2yaMQrSzOwwVtOYU/edit?usp=sharing
 ### Subtask 2
-### Pisanie przypadków testowych na podstawie “własnych doświadczeń".
+### Pisanie przypadków testowych na podstawie “własnych doświadczeń"
 https://docs.google.com/spreadsheets/d/1bkr1_z5aCD0tA7HTI9IfEyB1jdgK-0rv5SbLUGD6NGw/edit?usp=sharing
 ### Subtask 3
 ### Po co piszemy test case’y?
 Przypadki testowe piszemy, aby zaplanować co chcemy przetestować w danej aplikacji. Pisanie przypadków testowych pozwala nam na lepsze zaplanowanie naszej pracy, a także ułatwia nam sprawdzanie czy na pewno przetestowaliśmy wszystko, co chcieliśmy. Na podstawie przypadków testowych możemy budować raporty z przeprowadzonych testów. Są one także źródłem wiedzy dla nowych osób, które dołączają do zespołu.
+
+## Task 3
+### Subtask 2
+### Testowanie według planów testów i raportowanie błędów
+https://docs.google.com/spreadsheets/d/1BcC22mjQuX5peX6jiFsOTzkBLZ9Dn8q0PMSzjsb14_I/edit?usp=sharing
+### Subtask 3
+### Raport z wykonanych testów
+https://docs.google.com/document/d/143ppGo7Bm9uzuukY2kQC4twtTQvb9AqcUboSy8JxD7Q/edit?usp=sharing
