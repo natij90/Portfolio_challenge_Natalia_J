@@ -47,3 +47,20 @@ https://docs.google.com/spreadsheets/d/1BcC22mjQuX5peX6jiFsOTzkBLZ9Dn8q0PMSzjsb1
 ### Subtask 3
 ### Raport z wykonanych testów
 https://docs.google.com/document/d/143ppGo7Bm9uzuukY2kQC4twtTQvb9AqcUboSy8JxD7Q/edit?usp=sharing
+
+## Task 4
+### Subtask 2
+### Testowanie eksploracyjne i raportowanie błędów - aplikacja mobilna
+https://docs.google.com/spreadsheets/d/19Cd6dE9-cTbnNsbfb2whdoJUfcf0KW8z8OvX10PbQtQ/edit?usp=sharing
+### Subtask 3
+### Do czego służy ta aplikacja?
+Aplikacja OLX.pl umożliwia kupowanie lub sprzedawanie przedmiotów oraz nieruchomości, a także poszukiwanie lub oferowanie pracy i innych usług. Dzięki aplikacji można publikować ogłoszenia sprzedaży lub oferty pracy. Celem aplikacji jest sprzedaż, kupno lub skorzystanie z różnych usług.
+
+Użytkownikiem końcowym jest zarówno kupujący jak i sprzedający, oferujący lub poszukujący pracy/usług. Użytkownikiem może być każdy korzystający z internetu, gdyż dostęp do aplikacji jest bezpłatny.
+
+Aplikacja OLX.pl jest przyjazna dla użytkownika. Aplikacja działa szybko w sposób responsywny. Bez problemu można rozpoznać do czego służą dane funkcje aplikacji. Firma oferuje wsparcie klienta, aplikacja posiada zakładkę Pomoc, która kieruje nas do Centrum pomocy. Aplikacja posiada wyszukiwarkę, która ułatwia nawigowanie. 
+Grafika aplikacji jest przejszysta, a obrazkowe przedstawienie głównych kategorii ułatwia użytkowanie. 
+
+Jeśli chodzi o usprawnienie, to pomocne byłoby, gdyby sprzedane przedmioty z opcją przesyłki olx "znikały" automatycznie z aktywnych ogłoszeń. Poza tym, podczas dodawania ogłoszenia, ilość zapytań o promowanie ogłoszenia może być irytująca dla użytkownika. 
+### Subtask 4
+https://challangedareit.atlassian.net/jira/software/projects/CHAL/boards/1
