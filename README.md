@@ -1,6 +1,6 @@
 # Portfolio_challenge_Natalia_J
 
-## Task 1 
+## :star: Task 1 :star:
 ### Subtask 1
 7/10 punktów
 ### Subtask 3
@@ -29,7 +29,7 @@ Cześć! Mam na imię Natalia i jestem na etapie przebranżowienia. Aktualnie je
   - W formularzu edycji meczu możliwe jest podanie minusowej wartości w polu "Numer".
   ![image](https://user-images.githubusercontent.com/121819761/212567557-a75e4eb7-d2b7-4a0a-a336-130fb77e8113.png)
 
-## Task 2
+## :star: Task 2 :star:
 ### Subtask 1
 ### Pisanie przypadków testowych na podstawie User Story
 https://docs.google.com/spreadsheets/d/1syqu9mJb71_WnkooivLK1zLWJ-v2yaMQrSzOwwVtOYU/edit?usp=sharing
@@ -40,7 +40,7 @@ https://docs.google.com/spreadsheets/d/1bkr1_z5aCD0tA7HTI9IfEyB1jdgK-0rv5SbLUGD6
 ### Po co piszemy test case’y?
 Przypadki testowe piszemy, aby zaplanować co chcemy przetestować w danej aplikacji. Pisanie przypadków testowych pozwala nam na lepsze zaplanowanie naszej pracy, a także ułatwia nam sprawdzanie czy na pewno przetestowaliśmy wszystko, co chcieliśmy. Na podstawie przypadków testowych możemy budować raporty z przeprowadzonych testów. Są one także źródłem wiedzy dla nowych osób, które dołączają do zespołu.
 
-## Task 3
+## :star: Task 3 :star:
 ### Subtask 2
 ### Testowanie według planów testów i raportowanie błędów
 https://docs.google.com/spreadsheets/d/1BcC22mjQuX5peX6jiFsOTzkBLZ9Dn8q0PMSzjsb14_I/edit?usp=sharing
@@ -48,7 +48,7 @@ https://docs.google.com/spreadsheets/d/1BcC22mjQuX5peX6jiFsOTzkBLZ9Dn8q0PMSzjsb1
 ### Raport z wykonanych testów
 https://docs.google.com/document/d/143ppGo7Bm9uzuukY2kQC4twtTQvb9AqcUboSy8JxD7Q/edit?usp=sharing
 
-## Task 4
+## :star: Task 4 :star:
 ### Subtask 2
 ### Testowanie eksploracyjne i raportowanie błędów - aplikacja mobilna
 https://docs.google.com/spreadsheets/d/19Cd6dE9-cTbnNsbfb2whdoJUfcf0KW8z8OvX10PbQtQ/edit?usp=sharing
@@ -64,3 +64,67 @@ Grafika aplikacji jest przejszysta, a obrazkowe przedstawienie głównych katego
 Jeśli chodzi o usprawnienie, to pomocne byłoby, gdyby sprzedane przedmioty z opcją przesyłki olx "znikały" automatycznie z aktywnych ogłoszeń. Poza tym, podczas dodawania ogłoszenia, ilość zapytań o promowanie ogłoszenia może być irytująca dla użytkownika. 
 ### Subtask 4
 https://challangedareit.atlassian.net/jira/software/projects/CHAL/boards/1
+
+## :star: Task 5 :star:
+### Subtask 1
+SQLa uczyłam się już wcześniej, robiąc kurs na Udemy. Zapytania jakimi potrafię operować to m.in. SELECT, INSERT, UPDATE, DELETE, GROUP BY, ORDER BY, COUNT, INSERT INTO, UPDATE, INNER JOIN, operatory WHERE, AND, OR, NOT, IN, IS NULL, BETWEEN, a także Alias AS. 
+### Subtask 3
+:question: 1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.
+
+:arrow_right: SELECT * FROM `actors` ORDER BY surname ASC
+
+![image](https://user-images.githubusercontent.com/121819761/218564256-da6ed609-d51a-4a11-91fa-32e444d3f34d.png)
+
+:question: 2. Wyświetl film, który powstał w 2019 roku.
+
+:arrow_right: SELECT title FROM `movies` WHERE year_of_production = 2019
+
+![image](https://user-images.githubusercontent.com/121819761/218565126-015ee78c-3a37-466f-814c-83cbcfa784f5.png)
+
+:question: 3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
+
+:arrow_right: SELECT * FROM `movies` WHERE year_of_production BETWEEN '1900' AND '1999'
+
+![image](https://user-images.githubusercontent.com/121819761/218565638-7a065ebf-85d6-4bec-8f23-769783828161.png)
+
+:question: 4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$.
+
+:arrow_right: SELECT title, price FROM `movies` WHERE price < 7
+
+![image](https://user-images.githubusercontent.com/121819761/218566083-3ae2a49a-5a3c-443d-9a6a-db5643dee0de.png)
+
+:question: 5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
+
+:arrow_right: SELECT * FROM `actors` WHERE actor_id >=4 AND actor_id <=7
+
+![image](https://user-images.githubusercontent.com/121819761/218566915-e4b8dcd8-d021-4d6e-ad71-d2b7e37bae5b.png)
+
+:question: 6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
+
+:arrow_right: SELECT * FROM `customers` WHERE customer_id % 2 = 0
+
+![image](https://user-images.githubusercontent.com/121819761/218567909-2865483a-76aa-4045-a2eb-825b09273444.png)
+
+:question: 7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
+
+:arrow_right: SELECT * FROM `customers` WHERE customer_id IN ('1', '3', '5')
+
+![image](https://user-images.githubusercontent.com/121819761/218568735-b68526f5-1a87-43d9-ab17-822efa69d14e.png)
+
+:question: 8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An".
+
+:arrow_right: SELECT * FROM `actors` WHERE name LIKE 'An%'
+
+![image](https://user-images.githubusercontent.com/121819761/218569178-e5fbd1a6-be52-459d-a97c-81df44a40e21.png)
+
+:question: 9. Wyświetl dane klienta, który nie ma podanego adresu email.
+
+:arrow_right: SELECT * FROM `customers` WHERE email IS null
+
+![image](https://user-images.githubusercontent.com/121819761/218569587-33a8687f-13a7-4faf-be35-55972e2461d2.png)
+
+:question: 10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.
+
+:arrow_right: SELECT * FROM `movies` WHERE price > 9 AND movie_id BETWEEN 2 AND 8
+
+![image](https://user-images.githubusercontent.com/121819761/218570296-0dc233c8-c5b1-4f7e-b9d0-f5b963e896f4.png)
