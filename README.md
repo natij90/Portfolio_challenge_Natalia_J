@@ -128,3 +128,32 @@ SQLa uczyłam się już wcześniej, robiąc kurs na Udemy. Zapytania jakimi potr
 :arrow_right: SELECT * FROM `movies` WHERE price > 9 AND movie_id BETWEEN 2 AND 8
 
 ![image](https://user-images.githubusercontent.com/121819761/218570296-0dc233c8-c5b1-4f7e-b9d0-f5b963e896f4.png)
+
+:question: 11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój błąd.
+
+:arrow_right: UPDATE customers SET surname = "Miler" WHERE surname = "Muler"
+
+![image](https://user-images.githubusercontent.com/121819761/220195367-869af78b-16f5-4821-8542-fe628bc84ff0.png)
+
+:question: 12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila.
+
+:arrow_right:
+
+:question: 13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com.
+
+:arrow_right: UPDATE customers SET email = "pati@mail.com" WHERE email IS NULL
+
+![image](https://user-images.githubusercontent.com/121819761/220197824-4c25f721-edd2-41de-ab5f-069cf1f72f71.png)
+
+:question: 14.
+
+
+:question: 15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
+
+:arrow_right: ALTER TABLE customers ADD pseudonym varchar (40)
+
+![image](https://user-images.githubusercontent.com/121819761/220200067-635e6e2e-fe91-4e0c-a1f0-a362136dd6f3.png)
+
+
+
+
