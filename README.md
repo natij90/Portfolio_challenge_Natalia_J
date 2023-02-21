@@ -139,6 +139,8 @@ SQLa uczyłam się już wcześniej, robiąc kurs na Udemy. Zapytania jakimi potr
 
 :arrow_right:
 
+
+
 :question: 13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com.
 
 :arrow_right: UPDATE customers SET email = "pati@mail.com" WHERE email IS NULL
@@ -152,7 +154,28 @@ SQLa uczyłam się już wcześniej, robiąc kurs na Udemy. Zapytania jakimi potr
 
 :arrow_right: ALTER TABLE customers ADD pseudonym varchar (40)
 
+
+
 ![image](https://user-images.githubusercontent.com/121819761/220200067-635e6e2e-fe91-4e0c-a1f0-a362136dd6f3.png)
+
+:question: 16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
+
+:arrow_right: SELECT DISTINCT sale.movie_id, movies.title FROM sale INNER JOIN movies on sale.movie_id = movies.movie_id
+
+![image](https://user-images.githubusercontent.com/121819761/220449424-03375051-e53b-4e84-a980-f3a54f2ef3ff.png)
+
+:question: 17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)
+
+:arrow_right: SELECT name FROM customers UNION SELECT name FROM actors ORDER BY name
+
+![image](https://user-images.githubusercontent.com/121819761/220450642-22b82d5e-6856-4bf9-98ee-38ea50b8ecb3.png)
+
+:question: 18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).
+
+:arrow_right: UPDATE movies SET price = price + 2.5 WHERE year_of_production > 2000
+
+![image](https://user-images.githubusercontent.com/121819761/220452392-04c04150-73cf-4c0c-ae49-99123106580d.png)
+
 
 
 
