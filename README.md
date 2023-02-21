@@ -154,7 +154,7 @@ SQLa uczyłam się już wcześniej, robiąc kurs na Udemy. Zapytania jakimi potr
 
 :arrow_right: ALTER TABLE customers ADD pseudonym varchar (40)
 
-
+:arrow_right: Update customers Set pseudonym Concat (LEFT (name, 2), RIGHT( surname, 1)) Where customer_id between 1 and 6
 
 ![image](https://user-images.githubusercontent.com/121819761/220200067-635e6e2e-fe91-4e0c-a1f0-a362136dd6f3.png)
 
