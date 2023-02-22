@@ -176,6 +176,13 @@ SQLa uczyłam się już wcześniej, robiąc kurs na Udemy. Zapytania jakimi potr
 
 ![image](https://user-images.githubusercontent.com/121819761/220452392-04c04150-73cf-4c0c-ae49-99123106580d.png)
 
+:question: 19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał.
+
+:question: 20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa.
+
+:arrow_right: INSERT INTO customers VALUES (7, "Honia", "Stuczka-Kucharska", "honia@mail.com", "Hoa")
+
+![image](https://user-images.githubusercontent.com/121819761/220746628-7ef74ad9-33a8-45dc-87e5-e313600c343b.png)
 
 
 
