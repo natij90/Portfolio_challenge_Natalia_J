@@ -129,6 +129,8 @@ SQLa uczyłam się już wcześniej, robiąc kurs na Udemy. Zapytania jakimi potr
 
 ![image](https://user-images.githubusercontent.com/121819761/218570296-0dc233c8-c5b1-4f7e-b9d0-f5b963e896f4.png)
 
+## :star: Task 6 :star:
+### Subtask 1
 :question: 11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój błąd.
 
 :arrow_right: UPDATE customers SET surname = "Miler" WHERE surname = "Muler"
@@ -137,9 +139,9 @@ SQLa uczyłam się już wcześniej, robiąc kurs na Udemy. Zapytania jakimi potr
 
 :question: 12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila.
 
-:arrow_right:
+:arrow_right: SELECT customers.name, customers.email FROM customers JOIN sale ON sale.customer_id = customers.customer_id WHERE movie_id = 4
 
-
+![image](https://user-images.githubusercontent.com/121819761/220754722-936bc86e-0b13-4eb7-ac5b-245ab576b907.png)
 
 :question: 13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com.
 
@@ -147,16 +149,21 @@ SQLa uczyłam się już wcześniej, robiąc kurs na Udemy. Zapytania jakimi potr
 
 ![image](https://user-images.githubusercontent.com/121819761/220197824-4c25f721-edd2-41de-ab5f-069cf1f72f71.png)
 
-:question: 14.
+:question: 14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).
 
+:arrow_right: SELECT customers.name, customers.surname, movies.title FROM customers JOIN sale ON customers.customer_id = sale.customer_id JOIN movies ON sale.movie_id = movies.movie_id 
+
+![image](https://user-images.githubusercontent.com/121819761/220755548-825927ac-3618-4ca6-91c4-76ef862f36b9.png)
 
 :question: 15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
 
 :arrow_right: ALTER TABLE customers ADD pseudonym varchar (40)
 
-:arrow_right: Update customers Set pseudonym Concat (LEFT (name, 2), RIGHT( surname, 1)) Where customer_id between 1 and 6
-
 ![image](https://user-images.githubusercontent.com/121819761/220200067-635e6e2e-fe91-4e0c-a1f0-a362136dd6f3.png)
+
+:arrow_right: UPDATE customers SET pseudonym = Concat(LEFT(name,2),RIGHT(surname,1))
+
+![image](https://user-images.githubusercontent.com/121819761/220760705-572b4470-45d7-4eea-ab3b-4b74a058dd44.png)
 
 :question: 16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
 
@@ -178,12 +185,16 @@ SQLa uczyłam się już wcześniej, robiąc kurs na Udemy. Zapytania jakimi potr
 
 :question: 19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał.
 
+:arrow_right: SELECT actors.name, actors.surname, movies.title FROM actors JOIN cast ON actors.actor_id = cast.actor_id JOIN movies ON cast.movie_id = movies.movie_id WHERE actors.actor_id = 4
+
+![image](https://user-images.githubusercontent.com/121819761/220759922-491b61cb-956d-403c-a9cb-e9b2a03b5d5e.png)
+
 :question: 20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa.
 
 :arrow_right: INSERT INTO customers VALUES (7, "Honia", "Stuczka-Kucharska", "honia@mail.com", "Hoa")
 
 ![image](https://user-images.githubusercontent.com/121819761/220746628-7ef74ad9-33a8-45dc-87e5-e313600c343b.png)
 
-
-
+### Subtask 2
+Test Ecru - 10/15pkt 
 
