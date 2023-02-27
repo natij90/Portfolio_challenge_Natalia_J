@@ -198,3 +198,5 @@ SQLa uczyłam się już wcześniej, robiąc kurs na Udemy. Zapytania jakimi potr
 ### Subtask 2
 Test Ecru - 10/15pkt 
 
+### Subtask 3
+Link do portfolio: https://github.com/natij90/Portfolio/blob/main/README.md
